@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SUMMER BODY</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; /* Updated font-family */
+            background: linear-gradient(to bottom, #A8E6A1, #FFF9C4); /* Green to yellow gradient */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50; /* Deep green */
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #C8E6C9; /* Light green */
+        }
+        nav a {
+            text-decoration: none;
+            color: #388E3C; /* Darker green */
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1920x500') no-repeat center/cover;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #4CAF50; /* Matching green */
+            font-size: 2em;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .feature {
+            background: #FFF9C4; /* Soft yellow */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .feature h3 {
+            color: #4CAF50; /* Green text */
+            margin-top: 0;
+        }
+        footer {
+            background-color: #4CAF50; /* Deep green */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MY SUMMER BODY</h1>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Your Journey to a Healthier You</h2>
+        <p>Track your meals, calculate calories, and discover healthy recipes.</p>
+    </section>
+
+    <div class="content" id="about">
+        <h2>About the App</h2>
+        <p>MY SUMMER BODY is your ultimate companion for maintaining a healthy lifestyle. Whether you're tracking your calorie intake, scanning food items, or finding nutritious recipes, we've got you covered.</p>
+    </div>
+
+    <div class="features" id="features">
+        <div class="feature">
+            <h3>Food Scanner</h3>
+            <p>Quickly scan and identify food products to get nutritional information instantly.</p>
+        </div>
+        <div class="feature">
+            <h3>Calorie Calculator</h3>
+            <p>Track your calorie intake with precision to meet your health goals.</p>
+        </div>
+        <div class="feature">
+            <h3>Healthy Recipes</h3>
+            <p>Discover delicious, nutritious recipes tailored to your preferences.</p>
+        </div>
+    </div>
+
+    <footer id="download">
+        <p>Ready to start your journey? Download MY SUMMER BODY today!</p>
+        <p>&copy; 2024 MY SUMMER BODY. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
  
